@@ -216,7 +216,7 @@ const JobApplicationManagement = () => {
             {currentApplications.map((app, index) => (
               <tr key={app._id} className="odd:bg-white even:bg-gray-50 border-b">
                 <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">{(currentPage - 1) * itemsPerPage + index + 1}</td>
-                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <th scope="row" className="px-6 py-4 font-medium text-blue-700 whitespace-nowrap underline">
                   <a
                     href={app.url}
                     target="_blank"
